@@ -25,4 +25,4 @@ This repository demonstrates a tiny reproducible MLOps flow:
 5. Start the API:
     python src/app.py
    Then test:
-    curl -X POST "http://127.0.0.1:5000/predict" -H "Content-Type: application/json" -d '{"features":[5.1,3.5,1.4,0.2]}'
+    curl -X POST "http://127.0.0.1:5001/predict" -H "Content-Type: application/json" -d '{"features":[5.1,3.5,1.4,0.2]}'
